@@ -1,0 +1,43 @@
+git checkout master,
+
+create branch,
+git checkout -b "branchname", 
+
+add your chnages to your branch,
+git add .
+
+ commit your changes to your branch,
+git commit -m " commitname" -n,
+
+push your changes to your branch,
+git push origin branchname,
+
+rebase your branch with master,
+ git checkout master,
+git pull,
+git checkout yourbranchname (branchname),
+git rebase master,
+git push origin branchname -f,
+
+delete your branch,
+git branch -D branchname,
+
+other person mr check git commands,
+git checkout master,
+git pull,
+git checkout otherpersonbranchname,
+
+====================,
+git checkout master,
+git branch -D branchname -f,
+git pull,
+git checkout branchname,
+
+
+0commits
+git rebase -i master
+
+wq
+
+remove all commits
+stay one commit
